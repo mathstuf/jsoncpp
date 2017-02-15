@@ -7,3 +7,4 @@ to avoid conflicts with other copies of the library within a single process.
 
   * Add attributes to pass commit checks within VTK.
   * Integrate with VTK's module system.
+  * Mangle symbols to use the `vtkJson` namespace instead of `Json`.

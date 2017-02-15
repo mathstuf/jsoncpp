@@ -9,6 +9,9 @@
 #include <string> //typedef String
 #include <stdint.h> //typedef int64_t, uint64_t
 
+// XXX(kitware): Mangle the namespace.
+#define Json vtkJson
+
 /// If defined, indicates that json library is embedded in CppTL library.
 //# define JSON_IN_CPPTL 1
 
